@@ -143,7 +143,11 @@
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add_account_insert">
         新增
     </button>
-
+    <a href="/usr/export" target="_blank">
+        <button type="button" class="btn btn-primary">
+            匯出全部資料
+        </button>
+    </a>
     <!-- Modal -->
     <div class="modal fade" id="add_account_insert" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
