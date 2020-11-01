@@ -44,7 +44,7 @@
 
 ###環境部屬以 windows xampp為例
    - 安裝 xampp(內含php7.3) [請下載php7.3版本以上](https://www.apachefriends.org/zh_tw/download.html)
-   - 安裝 [composer](https://getcomposer.org/download/)
+   - 安裝 [composer](https://getcomposer.org/download/) <<此步驟安裝時，系統會詢問是否要將php加入path中，記得勾選。
    - git clone複製檔案至web server 的網站目錄中(ex:xampp 是在 C:\xampp\htdocs\ ,or centos nginx /usr/share/nginx/html/)
      
     git clone https://github.com/jh0712/crud_project.git
