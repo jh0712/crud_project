@@ -41,6 +41,10 @@
     - 性別：顯示時為 男/女 ，資料庫儲存為 1/0
     - 生日：顯示時格式 2019年2月15日 ，資料庫儲存格式為 2019-02-15
 14. 匯出資料(excel)
+15. 編碼風格：PSR-1 & PSR-2 & PHPDoc註釋
+16. 使用Namespace
+17. php用到物件、繼承、介面等物件導向技巧
+
 
 ###環境部屬以 windows xampp為例
    - 安裝 xampp(內含php7.3) [請下載php7.3版本以上](https://www.apachefriends.org/zh_tw/download.html)
