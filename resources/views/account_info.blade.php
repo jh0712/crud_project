@@ -42,7 +42,7 @@
     <table class="table">
         <thead class="thead-dark">
         <tr>
-            <th scope="col">#</th>
+            <th scope="col">id</th>
             <th scope="col">帳號</th>
             <th scope="col">姓名</th>
             <th scope="col">性別</th>
@@ -241,7 +241,7 @@
             return false;
         }
         $.ajax({
-            url: 'https://crudproject.168.us/api/account',// 跳轉到 action
+            url: '/api/account',// 跳轉到 action
             data: {
                 add_account: add_account,
                 add_name: add_name,
@@ -271,7 +271,7 @@
     function remove_account(account_id) {
         if (confirm("確定刪除嗎?")) {
             $.ajax({
-                url: 'https://crudproject.168.us/api/account/' + account_id,
+                url: '/api/account/' + account_id,
                 type: 'delete',
                 dataType: 'json',
                 success: function (data, textStatus, jqXHR) {
@@ -337,7 +337,7 @@
             return false;
         }
         $.ajax({
-            url: 'https://crudproject.168.us/api/account/' + account_id,// 跳轉到 action
+            url: '/api/account/' + account_id,// 跳轉到 action
             data: {
                 add_account: add_account,
                 add_name: add_name,
