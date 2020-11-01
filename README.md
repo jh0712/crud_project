@@ -62,7 +62,7 @@
     
     php artisan key:generate
     
-   - 設定 [.env](https://drive.google.com/file/d/1YguwpMI1GPvJYsJwp12wiFSpYWsNMUqD/view?usp=sharing) 中的database相關設定(注意:在這database、username、password須加單引號，laravel 解析設改版)
+   - 設定 [.env](https://drive.google.com/file/d/1YguwpMI1GPvJYsJwp12wiFSpYWsNMUqD/view?usp=sharing) 中的database相關設定(注意:在這database、username、password須加單引號，laravel 解析設定改版)
    
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -73,7 +73,11 @@
     
    - 開啟mysql 匯入 [sql 檔案](https://drive.google.com/file/d/1zKaYzMsCDs__LhyAud7ruOKQg8EtfD_E/view?usp=sharing)
    - 設定xampp apache httpd.conf檔案(C:\xampp\apache\conf\httpd.conf)
-   - 將 DocumentRoot "C:/xampp/htdocs" ，改成"C:/xampp/htdocs/crud_project/public" ，存檔
+   
+    將 httpd.conf中的DocumentRoot參數
+    "C:/xampp/htdocs"，改成"C:/xampp/htdocs/crud_project/public"
+    存檔
+    
    - 設定就緒開啟web server 即可在瀏覽器輸入 http://127.0.0.1/
    - 線上 [Demo 網站](https://crudproject.168.us/)  環境 LNMP
    
